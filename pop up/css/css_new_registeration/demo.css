@@ -1,0 +1,145 @@
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after {display: table;  content: ''; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: 'Avenir Next', 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	color: #4F4F5F;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	outline: none;
+	color: #aaa;
+	text-decoration: none;
+}
+
+
+.demo-1 a { color: #647FEA; }
+.demo-1 a:hover, .demo-1 a:focus { color: #333; }
+
+
+
+.container1 {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+.info {
+	padding: 0 1em 2em;
+	margin: 0;
+	line-height: 1.31;
+}
+
+
+
+
+
+
+/* Content */
+.content1 {
+	padding: 5em 0 6em;
+}
+
+
+
+
+
+#rbutton:hover {
+	background: black;
+}
+
+/* Related demos */
+.content--related {
+	text-align: center;
+	font-weight: bold;
+}
+
+.media-item {
+	display: inline-block;
+	padding: 1em;
+	vertical-align: top;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.media-item__img {
+	max-width: 100%;
+	opacity: 0.8;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.media-item:hover .media-item__img,
+.media-item:focus .media-item__img {
+	opacity: 1;
+}
+
+.media-item__title {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+.column{
+	float:left;
+}
+
+#rbutton{
+	position :absolute;
+	top:87%;
+	left: 90%;
+	pointer-events:auto;
+	background: #212121;
+	/*padding: 0.2em 0.3em;*/
+	margin: 0;
+	color: #fff;
+	font-family: 'Avenir Next', 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	border: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+#rbutton2{
+	position :absolute;
+	top:80%;
+	left: 85%;
+	pointer-events:auto;
+	background: #212121;
+	/*padding: 0.2em 0.3em;*/
+	margin: 0;
+	color: #fff;
+	font-family: 'Avenir Next', 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	border: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+input{
+padding: 10px;
+font-size:1.1em;
+color: #212121;
+}
+
+option{
+	color:#212121;
+	font-size:1.1em;
+}
+
