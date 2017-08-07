@@ -1,1 +1,1 @@
-# Smapsters
+Travelling Website
